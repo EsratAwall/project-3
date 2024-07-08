@@ -143,3 +143,43 @@ width: 50%;
 .midnight-img-container img{
     margin-left: 180px;
 }
+/* new park section */
+.new-park-container{
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    max-height: 600px;
+    height: 482px;
+    width: 1320px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.new-park-container h6{
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+}
+.new-park-container span{
+    color: rgb(255, 0, 0);
+}
+.new-btn{
+border-radius: 8px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+padding: 11px 27px 11px 27px;
+}
