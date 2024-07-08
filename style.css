@@ -41,45 +41,105 @@ letter-spacing: 0%;
 text-align: center;
 }
 /*Discount section  */
-main{
-    display: flex;
-    justify-content:center;
-}
-.banner-container{
+#discount-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
 }
-.discount-container .discount-subtitle{
+.discount-subtitle{
 color: rgb(255, 0, 0);
 font-size: 60px;
 font-weight: 700;
 line-height: 107px;
-text-align: center;
-margin-top: 85px;
 }
-.discount-container .discount-paragraph{
+.discount-paragraph{
 color: rgb(255, 0, 0);
 font-size: 20px;
 font-weight: 500;
 line-height: 29px;
-letter-spacing: 0%;
-text-align: center;
 }
-.discount-container .discount-title{
+.discount-title{
 color: rgb(7, 2, 17);
 font-size: 30px;
 font-weight: 700;
 line-height: 58px;
+}
+.discount-img-container{
+    max-width: 802px;
+    margin-top: 40px;
+}
+.discount-img-container img{
+width: 100%;
+}
+/* midnight section */
+#midnight-container{
+    border-radius: 16px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-height: 600px;
+    height: 600px;
+    width: 1320px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midnight-content{
+    display: flex;
+    align-items: center;
+    margin:90px ;
+   
+}
+.midnight-sub-content{
+    width: 50%;
+    margin-right: 40px;
+}
+.welcome{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.midnight-paragraph{
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 letter-spacing: 0%;
+text-align: left;
+padding-top:14px;
+margin-right: 30px;
+}
+.midnight-btn{
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
 text-align: center;
+text-transform: uppercase;
+background-color:transparent;
+border: none;
+margin-top:35px ;
+
 }
-.discount-img-box{
- margin-top: 48px;   
-width: 802px;
-height: 500px;
+.midnight-btn a{
+    text-decoration: none;
+    color: white;
+   
 }
-.discount-img-box img{
-    width: 100%;
-    height: 100%;
+.midnight-img-container{
+width: 50%;
+}
+.midnight-img-container img{
+    margin-left: 180px;
 }
